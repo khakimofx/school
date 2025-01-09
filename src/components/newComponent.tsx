@@ -5,7 +5,7 @@ const textStyle = "font-normal text-xl 2xl:text-xl xl:text-lg lg:text-base md:te
 
 interface newComponentProps {
   id?: string;
-  img?: string | StaticImageData;
+  img?: string | StaticImageData[] | StaticImageData;
   text?: string;
   title?: string;
   icon?: string | StaticImageData;
