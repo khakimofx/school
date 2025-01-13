@@ -6,15 +6,15 @@ import BurgerMenu from './BugerMenu'
 import Link from 'next/link'
 
 const ListStyle =
-  'text-[18px] text-[#fff] cursor-pointer bg-transparent px-[23px] py-[12px] hover:bg-[#fff] hover:text-[#000] rounded-[15px] duration-500 md:text-[13px] md:px-[15px] py-[6px] lg:text-[18px] lg:px-[23px] py-[12px]';
+  'text-[18px] text-[#fff] cursor-pointer bg-transparent px-[23px] py-[12px] hover:bg-[#fff] hover:text-[#000] rounded-[15px] duration-500 md:text-[11px] md:px-[10px] py-[4px] lg:text-[18px] lg:px-[23px] py-[12px]';
 export const Header: React.FC = () => {
   return (
     <header className='header'>
       <div className='container head_wrapper flex items-center justify-between h-[70px] '>
-        <div className='w-[20%] sm:w-[15%] lg:w-[15%] '>
+        <div className='w-[20%] sm:w-[40%] md:w-[20%] lg:w-[15%]'>
           <Image src={logo} alt='logo of school' />
         </div>
-        <ul className='menu flex items-center justify-between gap-[20px] md:gap-[15px] max-md:hidden'>
+        <ul className='menu flex items-center justify-between gap-[20px] md:gap-[10px] max-md:hidden'>
           <li className={ListStyle}><Link href='#main'>Home</Link></li>
           <li className={ListStyle}><Link href='#about'>Academics</Link></li>
           <li className={ListStyle}><Link href='#news'>News</Link></li>
