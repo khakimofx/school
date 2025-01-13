@@ -4,7 +4,7 @@ import { sendMessage } from "@/utility/sendMessage"
 import { FormEvent } from "react"
 
 const Input =
-  ' w-[80%] py-[12px] pl-[10px] border-[1px] border-solid border-[#9498a2] rounded-[8px] sm:pr-[50px]'
+  ' w-[100%] py-[12px] pl-[10px] border-[1px] border-solid border-[#9498a2] rounded-[8px] sm:pr-[50px]'
 
 const Form: React.FC = () => {
 
@@ -25,7 +25,7 @@ const Form: React.FC = () => {
   return (
 
 
-    <section>
+    <section id="contact us">
       <div className='container'>
         <div className='wrapper w-[65%] my-20 flex flex-col justify-center items-center mx-auto'>
           <h2 className='text-center text-[#161c2d] sm:text-[22px] md:text-[28px] lg:text-[40px]'>Contact us</h2>
@@ -34,9 +34,9 @@ const Form: React.FC = () => {
             coding. Build your next consultancy website within few minutes.
           </p>
           <form className='flex flex-col items-center justify-center w-full gap-[55px] sm:gap-4' onSubmit={(e) => submitForm(e)}>
-            <div className='top gap-2 flex justify-between items-center pt-[90px] pb-[35px] w-full sm:flex-col sm:pt-8 pb-5 md:flex-row'>
+            <div className='top gap-2 flex justify-between items-center w-full sm:flex-col sm:pt-8 pb-5 md:flex-row justify-between md:pt-8 md:pb-7 lg:pt-[90px] lg:pb-8'>
               {/* INPUT */}
-              <div className="flex flex-col ">
+              <div className="flex flex-col sm:w-full md:w-[48%]">
                 <label htmlFor='userName'>First & Last Name</label>
                 <input
                   type='text'
@@ -48,7 +48,7 @@ const Form: React.FC = () => {
               </div>
               {/* INPUT END */}
               {/* INPUT */}
-              <div className="flex flex-col">
+              <div className="flex flex-col sm:w-full md:w-[48%]">
                 <label htmlFor='email'>Email</label>
                 <input
                   type='email'
@@ -62,7 +62,7 @@ const Form: React.FC = () => {
             </div>
             <div className='center gap-2 flex justify-between items-center w-full sm:flex-col md:flex-row'>
               {/* INPUT */}
-              <div className="flex flex-col ">
+              <div className="flex flex-col sm:w-full md:w-[48%]">
                 <label htmlFor='phoneNum'>Phone number</label>
                 <input
                   type='tel'
@@ -74,7 +74,7 @@ const Form: React.FC = () => {
               </div>
               {/* INPUT END */}
               {/* INPUT */}
-              <div className="flex flex-col">
+              <div className="flex flex-col sm:w-full md:w-[48%]">
                 <label htmlFor='subject'>Subject</label>
                 <input
                   type='text'

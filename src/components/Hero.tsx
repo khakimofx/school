@@ -9,7 +9,7 @@ const ImgStyle = 'sm:w-[30%] md:w-[45%] lg:w-[100%] '
 
 const Hero = () => {
   return (
-    <section className='main'>
+    <section className='main' id='main'>
       <div className='container'>
         <div className='wrapper relative flex justify-center items-center flex-col'>
           <h1 className='title text-[60px] font-extrabold text-[#fff] w-[61%] text-center sm:text-[25px] w-[90%] md:text-[32px] md:w-[75%] lg:text-[40px] lg:w-[65%] xl:text-[60px] xl:w-[61%]'>

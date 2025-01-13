@@ -6,7 +6,7 @@ import { newDataSection } from "@/utility";
 
 const News: React.FC = () => {
   return (
-    <section className="bg-[#142D3A] py-[120px]">
+    <section className="bg-[#142D3A] py-[120px]" id="news">
       <div className="container">
         <h3 className="title text-[#fff] text-[32px] sm:text-[18px] md:text-[22px] lg:text-[28px] xl:text-[32px] font-semibold mb-2 ">
           News

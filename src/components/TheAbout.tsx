@@ -3,7 +3,7 @@ import Image from 'next/image'
 import RightImg from '@/public/Container.png'
 const TheAbout = () => {
   return (
-    <section className='w-full about'>
+    <section className='w-full about' id='about'>
       <div className='container'>
         <div className='about_wrapper flex items-center justify-between gap-[145px] pt-[250px] pb-[150px] sm:flex flex-col-reverse justify-center items-center sm:pt-[100px] pb-[70px] sm:gap-[50px] md:flex-row items-center justify-between  md:pt-[150px] md:pb-[50px] lg:gap-[100px] lg:pt-[200px] lg:pb-[100px] xl:pt-[250px] xl:pb-[150px]'>
           <div className='left_about w-[45%] sm:flex flex-col justify-center items-start sm:w-[90%] md:flex-none md:w-[45%]'>

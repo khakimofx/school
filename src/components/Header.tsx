@@ -11,15 +11,15 @@ export const Header: React.FC = () => {
   return (
     <header className='header'>
       <div className='container head_wrapper flex items-center justify-between h-[70px] '>
-        <div className='w-[20%] sm:w-[40%] lg:w-[15%] '>
+        <div className='w-[20%] sm:w-[15%] lg:w-[15%] '>
           <Image src={logo} alt='logo of school' />
         </div>
         <ul className='menu flex items-center justify-between gap-[20px] md:gap-[15px] max-md:hidden'>
-          <li className={ListStyle}><Link href='#solutions'>Home</Link></li>
-          <li className={ListStyle}><Link href='#solutions'>Academics</Link></li>
-          <li className={ListStyle}><Link href='#solutions'>News</Link></li>
+          <li className={ListStyle}><Link href='#main'>Home</Link></li>
+          <li className={ListStyle}><Link href='#about'>Academics</Link></li>
+          <li className={ListStyle}><Link href='#news'>News</Link></li>
           <li className={ListStyle}><Link href='#solutions'>About Us</Link></li>
-          <li className={ListStyle}><Link href='#solutions'>Contact Us</Link></li>
+          <li className={ListStyle}><Link href='#contact us'>Contact Us</Link></li>
         </ul>
         <div className='search_box relative max-md:hidden'>
           <input
