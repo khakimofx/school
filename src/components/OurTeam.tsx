@@ -11,7 +11,7 @@ import 'swiper/css/navigation'
 
 // import required modules
 import { Autoplay } from 'swiper/modules'
-const titleStyle = 'text-[36px] text-[#fff] font-semibolt text-center pt-[300px] sm:text-[20px] sm:pt-[170px] md:text-[26px] md:pt-[220px] lg:text-[36px] lg:pt-[300px] xl:pt-[350px]'
+const titleStyle = 'text-[36px] text-[#fff] font-semibolt text-center pt-[300px] sm:text-[20px] sm:pt-[170px] md:text-[26px] md:pt-[150px] lg:text-[36px] lg:pt-[200px] xl:pt-[300px]'
 const textStyle = 'text-[18px] text-[#FDFDFD] font-normal text-center pb-[11px] sm:text-[14px] md:text-[16px] lg:text-[18px]'
 
 export default function App() {

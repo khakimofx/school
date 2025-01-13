@@ -19,7 +19,14 @@ const Form: React.FC = () => {
 
     const template = `userName: ${userName.value}\n email: ${email.value}\n phoneNum: ${phoneNum.value}\n subject: ${subject.value}\n message: ${message.value}\n
     `
+
     sendMessage(template)
+
+    userName.value = '';
+    email.value = '';
+    phoneNum.value = '';
+    subject.value = '';
+    message.value = '';
   }
 
   return (
@@ -44,6 +51,7 @@ const Form: React.FC = () => {
                   id='userName'
                   name='UserName'
                   className={Input}
+                  required
                 />
               </div>
               {/* INPUT END */}
@@ -56,6 +64,7 @@ const Form: React.FC = () => {
                   id='email'
                   name='Email'
                   className={Input}
+                  required
                 />
               </div>
               {/* INPUT END */}
@@ -70,6 +79,7 @@ const Form: React.FC = () => {
                   id='phoneNum'
                   name='PhoneNum'
                   className={Input}
+                  required
                 />
               </div>
               {/* INPUT END */}
