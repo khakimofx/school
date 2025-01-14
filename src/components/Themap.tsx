@@ -6,7 +6,7 @@ import React from 'react'
 export default function Themap () {
   return (
     <section className='map_section pb-10'>
-      <div className='map_container w-full h-[688px] sm:h-[300px] md:h-[450px] lg:h-[550px] xl:h-[688px]'>
+      <div className='map_container w-full h-[500px] sm:h-[300px] md:h-[450px] lg:h-[500px] xl:h-[500px]'>
         <YMaps>
           <Map
             defaultState={{

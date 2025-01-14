@@ -30,8 +30,6 @@ const Form: React.FC = () => {
   }
 
   return (
-
-
     <section id="contact us">
       <div className='container'>
         <div className='wrapper w-[65%] my-20 flex flex-col justify-center items-center mx-auto'>
